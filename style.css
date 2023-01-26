@@ -161,3 +161,7 @@ input#result.error-msg {
 #copyToClipboard.copy-to-clipboard {
     border: 3px solid green;
 }
+
+.light-theme .calcBtn:hover{
+    border: 2px solid black;
+}
