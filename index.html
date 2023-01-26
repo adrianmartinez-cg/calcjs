@@ -11,34 +11,36 @@
     <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
     <script src='main.js' defer></script>
 </head>
-<body class="dark-theme">
+<body class="dark-theme" id="body">
     <div class="container">
-        <header>
-            <h1>Calc.js</h1>
-            <button class="actionBtn">Switch theme Dark/Light</button>
-        </header>
         <main>
-            <input type="text" id="userInput">
+            <section id="top">
+                <h1>Calc.js</h1>
+                <button class="actionBtn" id="switchThemeBtn">Switch theme Dark/Light</button>
+            </section>
+            <section>
+                <input type="text" id="userInput">
+            </section> 
             <section id="buttons">
                 <button class="calcBtn" id="clearBtn">C</button>
-                <button class="calcBtn" data-value=" ( ">(</button>
-                <button class="calcBtn" data-value=" ) ">)</button>
-                <button class="calcBtn" data-value=" / ">/</button>
-                <button class="calcBtn" data-value="7">7</button>
-                <button class="calcBtn" data-value="8">8</button>
-                <button class="calcBtn" data-value="9">9</button>
-                <button class="calcBtn" data-value=" * ">*</button>
-                <button class="calcBtn" data-value="4">4</button>
-                <button class="calcBtn" data-value="5">5</button>
-                <button class="calcBtn" data-value="6">6</button>
-                <button class="calcBtn" data-value=" - ">-</button>
-                <button class="calcBtn" data-value="1">1</button>
-                <button class="calcBtn" data-value="2">2</button>
-                <button class="calcBtn" data-value="3">3</button>
-                <button class="calcBtn" data-value=" + ">+</button>
-                <button class="calcBtn" data-value="0">0</button>
-                <button class="calcBtn" data-value=".">.</button>
-                <button class="calcBtn" data-value=" % ">mod</button>
+                <button class="calcBtn inputBtn" data-value=" ( ">(</button>
+                <button class="calcBtn inputBtn" data-value=" ) ">)</button>
+                <button class="calcBtn inputBtn" data-value=" / ">/</button>
+                <button class="calcBtn inputBtn" data-value="7">7</button>
+                <button class="calcBtn inputBtn" data-value="8">8</button>
+                <button class="calcBtn inputBtn" data-value="9">9</button>
+                <button class="calcBtn inputBtn" data-value=" * ">*</button>
+                <button class="calcBtn inputBtn" data-value="4">4</button>
+                <button class="calcBtn inputBtn" data-value="5">5</button>
+                <button class="calcBtn inputBtn" data-value="6">6</button>
+                <button class="calcBtn inputBtn" data-value=" - ">-</button>
+                <button class="calcBtn inputBtn" data-value="1">1</button>
+                <button class="calcBtn inputBtn" data-value="2">2</button>
+                <button class="calcBtn inputBtn" data-value="3">3</button>
+                <button class="calcBtn inputBtn" data-value=" + ">+</button>
+                <button class="calcBtn inputBtn" data-value="0">0</button>
+                <button class="calcBtn inputBtn" data-value=".">.</button>
+                <button class="calcBtn inputBtn" data-value=" % ">mod</button>
                 <button class="calcBtn" id="evalBtn">=</button>
             </section>        
             <section id="output">
