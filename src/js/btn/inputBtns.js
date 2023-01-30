@@ -1,4 +1,4 @@
-import { userInput } from "./userInput.js";
+import { userInput } from "../control/userInput.js";
 
 export let inputBtns = document.querySelectorAll('.inputBtn');
 inputBtns.forEach(function(btn){

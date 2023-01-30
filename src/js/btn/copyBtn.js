@@ -1,4 +1,4 @@
-import { output } from "./userInput.js";
+import { output } from "../control/userInput.js";
 
 export let copyBtn = document.getElementById('copyToClipboard');
 copyBtn.addEventListener('click',function(){
